@@ -1,0 +1,15 @@
+Package: winssh
+Type: Package
+Title: SSH tools for Windows (cross platform using Java)
+Version: 1.2.5
+Date: 2016-06-29
+Author: Roc Alabern
+Maintainer: Roc Alabern <roc.alabern@gmail.com>
+Description: A package to get ssh commands from R.
+Depends:
+    R (>= 2.7.0),
+    rJava (>= 0.5-0)
+SystemRequirements: Java (>= 1.6)
+NeedsCompilation: no
+URL: https://github.com/rocalabern/winssh
+RoxygenNote: 5.0.1
