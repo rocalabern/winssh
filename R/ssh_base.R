@@ -1,9 +1,5 @@
 # roxygen2::roxygenise()
 
-# library('rJava')
-# .jinit()
-# .jaddClassPath("inst/java/sshclient.jar")
-
 ssh.x.message <- function (strText, windows=FALSE) {
   #   writeLines(strwrap(strText, width=73))
   if (windows) strText = unlist(strsplit(strText, "\r\n"))
